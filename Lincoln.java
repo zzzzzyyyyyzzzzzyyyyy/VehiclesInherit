@@ -1,6 +1,14 @@
 public class Lincoln extends Cars{
     private String[] placesOfCreation;
     private String name;
+    private boolean hasLincolnLogo;
+
+    public void setPlacesOfCreation(String[] poc){
+        placesOfCreation = poc;
+    }
+    public String[] getPlacesOfCreation(){
+        return placesOfCreation;
+    }
 
     public Lincoln(String n){
         name = n;

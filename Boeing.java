@@ -1,6 +1,13 @@
 public class Boeing extends Planes{
     private int seats;
 
+    public void setSeats(int s){
+        seats = s;
+    }
+    public int getSetase(){
+        return seats;
+    }
+
     public void loadPlane(){
         System.out.println("The Boeing plane is being loaded with people.");
     }

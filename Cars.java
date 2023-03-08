@@ -3,6 +3,13 @@ import java.util.Random;
 public class Cars extends Vehicles{
     private boolean luxary;
 
+    public void setLuxary(boolean l){
+        luxary = l;
+    }
+    public boolean getLuxary(){
+        return luxary;
+    }
+
     public void commitSpeedViolation(){
         System.out.println("The car is driving super duper fast now. Like super quick. Quicker than Sonic. It's breaking the law though so das ist nicht gut.");
     }

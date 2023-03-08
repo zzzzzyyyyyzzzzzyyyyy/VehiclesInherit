@@ -1,6 +1,13 @@
 public class Maserati extends Cars{
     private String ambientLighting;
 
+    public void setAmbientLighting(String al){
+        ambientLighting = al;
+    }
+    public String getAmbientLighting(){
+        return ambientLighting;
+    }
+
     public void create(){
         System.out.println("A new Maserati has been created! What a rare occurence.");
     }

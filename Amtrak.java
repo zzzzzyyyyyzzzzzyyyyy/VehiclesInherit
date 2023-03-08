@@ -1,6 +1,13 @@
 public class Amtrak extends Trains{
     public boolean containBlue;
 
+    public void setContainBlue(boolean cB){
+        containBlue = cB;
+    }
+    public boolean getContainBlue(){
+        return containBlue;
+    }
+
     public void driveUnderGround(){
         System.out.println("The Amtrak train is driving underground! Wow! Darkness!");
     }
