@@ -4,7 +4,7 @@ public class Boeing extends Planes{
     public void setSeats(int s){
         seats = s;
     }
-    public int getSetase(){
+    public int getSeats(){
         return seats;
     }
 
