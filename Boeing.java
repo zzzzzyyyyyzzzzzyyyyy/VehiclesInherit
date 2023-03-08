@@ -8,4 +8,7 @@ public class Boeing extends Planes{
         return false;
         // i shall not return true because no one should go through that
     }
+    private void fly(){
+        System.out.println("zoom!");
+    }
 }

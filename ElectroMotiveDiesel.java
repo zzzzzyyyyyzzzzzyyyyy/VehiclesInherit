@@ -7,4 +7,7 @@ public class ElectroMotiveDiesel extends Trains{
     public void smoke(){
         System.out.println("The smoke and fog, it covers the land.");
     }
+    public void noise(){
+        System.out.println("choo choo but with an extra choo choo");
+    }
 }
