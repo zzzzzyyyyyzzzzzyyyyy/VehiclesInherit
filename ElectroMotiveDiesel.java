@@ -8,13 +8,13 @@ public class ElectroMotiveDiesel extends Trains{
         return dieselOrElectric;
     }
 
+    public void noise(){
+        System.out.println("choo choo but with an extra choo choo");
+    }
     public void carryCargo(){
         System.out.println("The Electro-Motive Diesel train is carrying away cargo.");
     }
     public void smoke(){
         System.out.println("The smoke and fog, it covers the land.");
-    }
-    public void noise(){
-        System.out.println("choo choo but with an extra choo choo");
     }
 }

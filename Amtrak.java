@@ -1,5 +1,5 @@
 public class Amtrak extends Trains{
-    public boolean containBlue;
+    private boolean containBlue;
 
     public void setContainBlue(boolean cB){
         containBlue = cB;
